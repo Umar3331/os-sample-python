@@ -1,9 +1,3 @@
-from flask import Flask
-application = Flask(__name__)
-
-@application.route("/")
-def hello():
-    return "Hello World!"
-
-if __name__ == "__main__":
-    application.run()
+import pyautogui
+pyautogui.moveTo(760,300)
+pyautogui.typewrite("HELLO I AM UMAR THE CONQUERER I MSHSBLHLN FELFHEF N;S FOFOHEOH AN",interval=0.5)
